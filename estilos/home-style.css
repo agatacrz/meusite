@@ -11,3 +11,38 @@
     box-sizing: border-box;
 }
 
+div.logo-principal {
+    margin-bottom: 20px;
+}
+
+div.logo-principal> a > img {
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    width: 100px;
+}
+
+nav {
+    width: 300px;
+}
+
+nav#menu-principal {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+nav#menu-principal > a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.1em;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+nav#menu-principal > a:hover {
+    text-decoration: overline;
+}
