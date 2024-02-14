@@ -46,3 +46,31 @@ nav#menu-principal > a {
 nav#menu-principal > a:hover {
     text-decoration: overline;
 }
+
+div.bloco-foto-texto {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+div.foto-principal {
+    position: absolute;
+}
+
+div.foto-principal > img {
+    position: absolute;
+    top: 0;
+    left: 10rem;
+    width: 275px;
+    margin-top: 25px;
+    
+}
+
+div.texto-principal {
+    
+}
+
+div.texto-principal > span {
+   
+    
+}
