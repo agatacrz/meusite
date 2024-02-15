@@ -19,11 +19,11 @@ div.logo-principal> a > img {
     display: block;
     margin: auto;
     margin-top: 30px;
-    width: 100px;
+    width: 80px;
 }
 
 nav {
-    width: 300px;
+    width: 280px;
 }
 
 nav#menu-principal {
@@ -38,7 +38,7 @@ nav#menu-principal {
 nav#menu-principal > a {
     text-decoration: none;
     color: black;
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: 500;
     cursor: pointer;
 }
@@ -47,30 +47,30 @@ nav#menu-principal > a:hover {
     text-decoration: overline;
 }
 
-div.bloco-foto-texto {
-    position: relative;
-    display: block;
-    width: 100%;
-}
-
 div.foto-principal {
-    position: absolute;
+    margin-top: 20px;
 }
 
 div.foto-principal > img {
-    position: absolute;
-    top: 0;
-    left: 10rem;
-    width: 275px;
-    margin-top: 25px;
-    
+    display: block;
+    margin: auto;
+    width: 300px;
+    position: relative;
 }
 
 div.texto-principal {
-    
+    position: absolute;
+    top: 360px;
+    left: 150px;
+    transform: rotate(-90deg);
 }
 
 div.texto-principal > span {
-   
-    
+    font-size: 1.5em;
+    color: white;
+}
+
+div.texto-principal > span.nome {
+    font-size: 2.7em;
+    font-weight: 500;
 }
