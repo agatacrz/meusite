@@ -55,22 +55,90 @@ div.foto-principal > img {
     display: block;
     margin: auto;
     width: 300px;
-    position: relative;
 }
 
 div.texto-principal {
-    position: absolute;
-    top: 360px;
-    left: 150px;
-    transform: rotate(-90deg);
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 div.texto-principal > span {
-    font-size: 1.5em;
-    color: white;
+    font-size: 1.4em;
+    color: #1D2C40;
 }
 
 div.texto-principal > span.nome {
+    display: block;
     font-size: 2.7em;
-    font-weight: 500;
+    font-weight: 600;
+    margin-top: -7px;
+    margin-bottom: -26px;
+}
+
+section.lista-itens {
+    margin-top: 60px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+div.item-lista {
+    margin: auto;
+    width: 60%;
+    background-color: #1D2C40;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+div.item-lista > a {
+    text-decoration: none;
+    font-size: 1.3em;
+    color: white;
+}
+
+div.item-lista:hover {
+    background-color: #779cab;
+}
+
+section.links-sociais {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+div#instagram-id {
+    width: 40px;
+    height: 40px;
+    background-image: url(../imagens/icon-instagram.png);
+    background-size: cover;
+}
+
+div#behance-id {
+    width: 40px;
+    height: 40px;
+    background-image: url(../imagens/icon-behance.png);
+    background-size: cover;
+}
+
+div#linkedin-id {
+    width: 40px;
+    height: 40px;
+    background-image: url(../imagens/icon-linkedin.png);
+    background-size: cover;
+}
+
+div#email-id {
+    width: 40px;
+    height: 40px;
+    background-image: url(../imagens/icon-e-mail.png);
+    background-size: cover;
 }
