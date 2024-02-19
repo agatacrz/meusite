@@ -54,7 +54,7 @@ div.foto-principal {
 div.foto-principal > img {
     display: block;
     margin: auto;
-    width: 300px;
+    width: 280px;
 }
 
 div.texto-principal {
@@ -113,6 +113,7 @@ section.links-sociais {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    gap: 5px;
 }
 
 div#instagram-id {
