@@ -2,7 +2,43 @@
 
 /*Todas as demais mídias PÁGINA HOME/INDEX*/
 
+@media (min-width: 450px) {
+    div.item-lista {
+        width: 45%;
+    }
+}
+
 /* TABLET */
 @media screen and (min-width: 768px) and (max-width: 992px) {
-    
+    nav#menu-principal > a {
+        font-size: 1.2em;
+    }
+
+    div.item-lista {
+        width: 40%;
+    }
+
+    section.links-sociais {
+        width: 30%;
+    }
+}
+
+@media (min-width: 1024px) {
+    div.foto-principal2 > img {
+        display: block;
+    }
+
+    div.foto-principal > img {
+        display: none;
+    }
+
+    main {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    main.coluna1 {
+        margin-left: 1500px;
+    }
 }

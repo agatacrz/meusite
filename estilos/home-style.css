@@ -57,6 +57,10 @@ div.foto-principal > img {
     width: 280px;
 }
 
+div.foto-principal2 > img {
+    display: none;
+}
+
 div.texto-principal {
     display: block;
     margin: auto;
