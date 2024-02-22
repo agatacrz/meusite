@@ -24,12 +24,34 @@
 }
 
 @media (min-width: 1024px) {
-    div.foto-principal2 > img {
+    div.coluna2 {
         display: block;
+        width: 50%;
+        height: 100vh;
+        color: aquamarine;
+        background-image: url(../imagens/agata-cruz-tam-desktop.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
     }
 
     div.foto-principal > img {
         display: none;
+    }
+
+    header {
+        display: none;
+    }
+
+    div.fake-header {
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    nav#menu-principal {
+        padding-bottom: 0;
+        border-bottom: none;
     }
 
     main {
@@ -39,6 +61,17 @@
     }
 
     main.coluna1 {
-        margin-left: 1500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    div.texto-principal {
+        width: 500px;
+    }
+
+    main.coluna2 > img {
+        align-items: end;
     }
 }

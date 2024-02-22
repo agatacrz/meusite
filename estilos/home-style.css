@@ -61,6 +61,10 @@ div.foto-principal2 > img {
     display: none;
 }
 
+div.fake-header {
+    display: none;
+}
+
 div.texto-principal {
     display: block;
     margin: auto;
