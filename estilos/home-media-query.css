@@ -24,6 +24,12 @@
 }
 
 @media (min-width: 1024px) {
+    div.coluna1 {
+        display: block;
+        width: 50%;
+        height: 100vh;
+    }
+
     div.coluna2 {
         display: block;
         width: 50%;
@@ -44,14 +50,31 @@
     }
 
     div.fake-header {
+        width: 100%;
+        margin-top: 15px;
         display: inline-flex;
         flex-direction: row;
         justify-content: space-between;
     }
 
+    div.texto-principal {
+        display: block;
+        margin: auto;
+        margin-top: 100px;
+    }
+
+    div.logo-principal {
+        margin-left: 25px;
+    }
+
     nav#menu-principal {
-        padding-bottom: 0;
+        margin-top: 26px;
         border-bottom: none;
+    }
+
+    nav#menu-principal > a {
+        font-size: 1.2em;
+        font-weight: 400;
     }
 
     main {
@@ -73,5 +96,23 @@
 
     main.coluna2 > img {
         align-items: end;
+    }
+
+    div#item-lista-about-id {
+        display: none;
+    }
+
+    section.lista-itens {
+        width: 70%;
+        margin: auto;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    section.links-sociais {
+        width: 30%;
     }
 }
