@@ -34,7 +34,6 @@
         display: block;
         width: 50%;
         height: 100vh;
-        color: aquamarine;
         background-image: url(../imagens/agata-cruz-tam-desktop.jpg);
         background-size: cover;
         background-repeat: no-repeat;
@@ -58,9 +57,26 @@
     }
 
     div.texto-principal {
+        width: 350px;
         display: block;
         margin: auto;
-        margin-top: 100px;
+        margin-top: 90px;
+    }
+    
+    div.texto-principal > span.apresentacao > p {
+        margin-bottom: 10px;
+        font-size: 1.8em;
+        text-align: left;
+    }
+
+    div.texto-principal > span.nome > p {
+        font-size: 4.4em;
+        text-align: center;
+    }
+
+    div.texto-principal > span.descricao > p {
+        font-size: 1.2em;
+        text-align: right;
     }
 
     div.logo-principal {
@@ -90,10 +106,6 @@
         
     }
 
-    div.texto-principal {
-        width: 500px;
-    }
-
     main.coluna2 > img {
         align-items: end;
     }
@@ -105,8 +117,8 @@
     section.lista-itens {
         width: 70%;
         margin: auto;
-        margin-top: 100px;
-        margin-bottom: 100px;
+        margin-top: 70px;
+        margin-bottom: 80px;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;

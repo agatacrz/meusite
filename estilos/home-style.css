@@ -73,17 +73,21 @@ div.texto-principal {
     text-align: center;
 }
 
-div.texto-principal > span {
-    font-size: 1.4em;
+div.texto-principal > span.apresentacao > p {
+    font-size: 1.5em;
     color: #1D2C40;
 }
 
-div.texto-principal > span.nome {
+div.texto-principal > span.nome > p {
     display: block;
-    font-size: 2.7em;
+    font-size: 2.2em;
     font-weight: 600;
-    margin-top: -7px;
-    margin-bottom: -26px;
+    margin-top: -30px;
+    margin-bottom: -20px;
+}
+
+div.texto-principal > span.descricao > p {
+    font-size: 1.5em;
 }
 
 section.lista-itens {
