@@ -60,7 +60,7 @@
         width: 350px;
         display: block;
         margin: auto;
-        margin-top: 90px;
+        margin-top: 70px;
     }
     
     div.texto-principal > span.apresentacao > p {
@@ -118,7 +118,7 @@
         width: 70%;
         margin: auto;
         margin-top: 70px;
-        margin-bottom: 80px;
+        margin-bottom: 70px;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
@@ -126,5 +126,110 @@
 
     section.links-sociais {
         width: 30%;
+    }
+}
+
+@media (min-width: 1440px) {
+
+    nav#menu-principal {
+        gap: 60px;
+    }
+
+    nav#menu-principal > a {
+        font-size: 1.6em;
+        font-weight: 500;
+    }
+
+    div.texto-principal {
+        width: 400px;
+        margin-top: 120px;
+    }
+
+    div.texto-principal > span.nome > p {
+        font-size: 5em;
+    }
+
+    div.texto-principal > span.descricao > p {
+        font-size: 1.5em;
+    }
+
+    section.links-sociais {
+        gap: 15px;
+    }
+
+    div#instagram-id {
+        width: 50px;
+        height: 50px;
+    }
+    
+    div#behance-id {
+        width: 50px;
+        height: 50px;
+    }
+    
+    div#linkedin-id {
+        width: 50px;
+        height: 50px;
+    }
+    
+    div#email-id {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media (min-width: 1920px) {
+    div.logo-principal> a > img {
+        width: 120px;
+    }
+
+    nav#menu-principal > a {
+        font-size: 2em;
+        font-weight: 500;
+    }
+
+    div.texto-principal {
+        width: 500px;
+        margin-top: 120px;
+    }
+
+    div.texto-principal > span.apresentacao > p {
+        font-size: 2.5em;
+    }
+
+    div.texto-principal > span.nome > p {
+        font-size: 6.3em;
+    }
+
+    div.texto-principal > span.descricao > p {
+        font-size: 2em;
+    }
+
+    div.item-lista > a {
+        font-size: 2em;
+    }
+
+    section.links-sociais {
+        gap: 15px;
+    }
+
+    div#instagram-id {
+        width: 60px;
+        height: 60px;
+    }
+    
+    div#behance-id {
+        width: 60px;
+        height: 60px;
+    }
+    
+    div#linkedin-id {
+        width: 60px;
+        height: 60px;
+    }
+    
+    div#email-id {
+        width: 60px;
+        height: 60px;
     }
 }
