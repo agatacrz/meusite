@@ -11,6 +11,10 @@
     box-sizing: border-box;
 }
 
+body {
+    width: 100vw;
+}
+
 div.logo-principal {
     margin-bottom: 20px;
 }
@@ -48,18 +52,45 @@ nav#menu-principal > a:hover {
 }
 
 section.lista-de-itens {
+    width: 60%;
     display: block;
     margin: auto;
-    margin-left: 50px;
-    margin-top: 50px;
     margin-bottom: 50px;
-    padding: 10px;
-    font-size: 1.8em;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    font-size: 1.3em;
     border-left: 1px solid black;
+}
+
+details {
+    border-top: 1px solid black;
+    padding: 13px;
+}
+
+summary::after {
+    content: ' +';
 }
 
 details > summary {
     list-style: none;
+}
+
+p.descricao-servicos {
+    font-size: 0.8em;
+    padding: 18px 0 18px 0;
+}
+
+a.link-orcamento {
+    text-decoration: none;
+    font-size: 0.8em;
+    border: 1px solid black;
+    color: #1D2C40;
+    padding: 2px 15px 2px 15px;
+}
+
+a.link-orcamento:hover {
+    background-color: #CCD6D9;
+    color: #1D2C40;
 }
 
 section.links-sociais {
