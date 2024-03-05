@@ -2,3 +2,12 @@
 
 /*Todas as demais mídias PÁGINA LNKS*/
 
+@media (min-width: 375px) {
+    section.lista-de-itens {
+        width: 55%;
+    }
+}
+
+@media (min-width: 768px) {
+   
+}
