@@ -51,6 +51,10 @@ nav#menu-principal > a:hover {
     text-decoration: overline;
 }
 
+.title-services {
+    display: none;
+}
+
 section.lista-de-itens {
     width: 65%;
     display: block;
