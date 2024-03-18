@@ -85,6 +85,3 @@ div.conteudo-item:hover {
     box-shadow: 0 0 1em white;
 }
 
-section.sessao-item > a:hover {
-    text-decoration: underline;
-}
