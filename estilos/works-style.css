@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500&display=swap');
 
-/*Mobile First PÁGINA SERVIÇOS*/
+/*Mobile First PÁGINA TRABALHOS*/
 
 * {
     font-family: 'Jost', sans-serif;
@@ -51,52 +51,7 @@ nav#menu-principal > a:hover {
     text-decoration: overline;
 }
 
-.title-services {
-    display: none;
-}
 
-section.lista-de-itens {
-    width: 65%;
-    display: block;
-    margin: auto;
-    margin-bottom: 50px;
-    padding-top: 90px;
-    padding-bottom: 90px;
-    font-size: 1.3em;
-    border-left: 1px solid black;
-}
-
-details {
-    border-top: 1px solid black;
-    padding: 13px;
-    cursor: pointer;
-}
-
-summary::after {
-    content: ' +';
-}
-
-details > summary {
-    list-style: none;
-}
-
-p.descricao-servicos {
-    font-size: 0.8em;
-    padding: 18px 0 18px 0;
-}
-
-a.link-orcamento {
-    text-decoration: none;
-    font-size: 0.8em;
-    border: 1px solid black;
-    color: #1D2C40;
-    padding: 2px 15px 2px 15px;
-}
-
-a.link-orcamento:hover {
-    background-color: #CCD6D9;
-    color: #1D2C40;
-}
 
 section.links-sociais {
     width: 50%;
@@ -112,13 +67,6 @@ div#instagram-id {
     width: 40px;
     height: 40px;
     background-image: url(../imagens/icon-instagram.png);
-    background-size: cover;
-}
-
-div#behance-id {
-    width: 40px;
-    height: 40px;
-    background-image: url(../imagens/icon-behance.png);
     background-size: cover;
 }
 
