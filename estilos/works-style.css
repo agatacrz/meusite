@@ -71,6 +71,10 @@ nav#menu-principal > a:hover {
     border-radius: 5px;
 }
 
+.desktop-img {
+    display: none;
+}
+
 .links-item-portfolio {
     width: 90%;
     margin: auto;

@@ -1,3 +1,59 @@
 @charset "UTf-8";
 
 /*Todas as demais mídias PÁGINA TRABALHOS*/
+
+@media (min-width: 700px) {
+    .portfolio-item {
+        margin-top: 100px;
+        margin-bottom: 150px;
+    }
+
+    .portfolio-item > h3 {
+        font-size: 2.5em;
+        font-weight: 500;
+    }
+
+    .links-item-portfolio > a {
+        font-size: 1.7em;
+    }
+
+    div#instagram-id {
+        width: 40px;
+        height: 40px;
+    }
+    
+    div#linkedin-id {
+        width: 40px;
+        height: 40px;
+    }
+    
+    div#email-id {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .portfolio-item {
+        display: flex;
+    }
+
+    .item-foto-links {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .portfolio-item > img {
+        display: none;
+    }
+
+    .desktop-img {
+        display: block;
+        width: 75%;
+    }
+
+    .links-item-portfolio {
+        display: inline-block;
+    }
+}
