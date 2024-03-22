@@ -17,6 +17,9 @@
         font-size: 1.7em;
     }
 
+    section.links-sociais {
+        width: 25%;
+
     div#instagram-id {
         width: 40px;
         height: 40px;
@@ -39,9 +42,25 @@
     }
 
     .item-foto-links {
+        margin: auto;
         display: flex;
         flex-direction: column;
-        margin: auto;
+        align-items: center;
+    }
+
+    .portfolio-item .links-item-portfolio {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        font-size: 0.8em;
+        margin-top: 15px;
+    }
+
+    .portfolio-item > h3 {
+        height: 100px;
+        width: 700px;
+        font-size: 2em;
+        transform: rotate(-90deg);
     }
 
     .portfolio-item > img {
@@ -51,9 +70,16 @@
     .desktop-img {
         display: block;
         width: 75%;
+        transition: .5s;
     }
 
-    .links-item-portfolio {
-        display: inline-block;
+    .desktop-img:hover {
+        transform: scale(1.2);
+        
     }
+
+    section.links-sociais {
+        width: 15%;
+        margin-top: 110px;
+        margin-bottom: 50px;
 }
