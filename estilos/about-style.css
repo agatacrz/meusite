@@ -48,3 +48,34 @@ nav#menu-principal > a {
 nav#menu-principal > a:hover {
     text-decoration: overline;
 }
+
+div#foto-minha-jornada {
+    margin: auto;
+    width: 320px;
+    height: 500px;
+    margin-top: 30px;
+    background: url(../imagens/foto-principal-agata-cruz-pagina-sobre.png) no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+p#minha-jornada {
+    margin: auto;
+    padding: 40px;
+    text-align: justify;
+    font-size: 1.5em;
+    line-height: 1.7em;
+}
+
+h2.titulo {
+    font-size: 2.3em;
+    font-weight: 600;
+    text-align: center;
+}
+
+p.competencias {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 40px;
+    line-height: 1.7em;
+}
