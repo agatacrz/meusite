@@ -33,6 +33,10 @@
     display: block;
     width: 60%;
    }
+
+   section.links-sociais {
+    width: 25%;
+    }
 }
 
 @media (min-width: 800px) {
@@ -43,6 +47,7 @@
     section.lista-de-itens {
         font-size: 1.6em;
     }
+
 }
 
 @media (min-width: 1000px) {
