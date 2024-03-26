@@ -73,9 +73,71 @@ h2.titulo {
     text-align: center;
 }
 
+ul.certificacoes {
+    font-size: 1.5em;
+    padding: 20px 65px;
+    line-height: 1.7em;
+}
+
+ul.certificacoes > li {
+    margin-bottom: 15px;
+}
+
 p.competencias {
     font-size: 1.5em;
     text-align: center;
     padding: 40px;
     line-height: 1.7em;
+}
+
+div.link-perfil-completo {
+    margin: auto;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-bottom: 100px;
+}
+
+div.link-perfil-completo > a {
+    color: #1D2C40;
+}
+
+div.fale-comigo {
+    margin: auto;
+    width: 60%;
+    background-color: #1D2C40;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+div.fale-comigo > a {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: white;
+}
+
+section.links-sociais {
+    width: 25%;
+    margin: auto;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 5px;
+}
+
+div#instagram-id {
+    width: 40px;
+    height: 40px;
+    background-image: url(../imagens/icon-instagram.png);
+    background-size: cover;
+}
+
+div#email-id {
+    width: 40px;
+    height: 40px;
+    background-image: url(../imagens/icon-e-mail.png);
+    background-size: cover;
 }
