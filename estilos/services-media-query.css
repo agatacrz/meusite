@@ -1,6 +1,6 @@
 @charset "UTf-8";
 
-/*Todas as demais mídias PÁGINA LNKS*/
+/*Todas as demais mídias PÁGINA SERVIÇOS*/
 
 @media (min-width: 375px) {
     section.lista-de-itens {
@@ -24,9 +24,7 @@
 
    .title-services > p {
     font-size: 3em;
-    text-transform: uppercase;
-    font-weight: 200;
-    letter-spacing: 10px;
+    font-weight: 500;
    }
 
    section.lista-de-itens {
