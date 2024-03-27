@@ -19,4 +19,123 @@
 
     section.links-sociais {
         width: 15%;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    main {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    div.coluna1 {
+        display: block;
+        width: 50%;
+        height: 100vh;
+        margin-top: 70px;
+    }
+
+    div.coluna2 {
+        display: block;
+        width: 50%;
+        height: 100vh;
+    }
+
+    p#minha-jornada {
+        padding: 40px;
+        text-align: justify;
+        font-size: 1em;
+        line-height: 1.7em;
+    }
+
+    div.link-perfil-completo {
+        margin: auto;
+        text-align: center;
+        font-size: 1em;
+        font-weight: 400;
+        padding-bottom: 35px;
+    }
+
+    div.coluna2b{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    div.grupo1 {
+        width: 60%;
+    }
+
+    div.grupo2 {
+        width: 40%;
+    }
+
+    h2.titulo {
+        font-size: 1.4em;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    ul.certificacoes {
+        font-size: 1em;
+        padding: 30px;
+        line-height: 1em;
+    }
+
+    p.competencias {
+        font-size: 1em;
+        text-align: left;
+        padding: 30px;
+        line-height: 1.4em;
+    }
+
+    div.fale-comigo {
+        display: none;
+    }
+
+    section.links-sociais {
+        display: none;
+    }
+
+    div.fale-comigo-desktop {
+        display: block;
+        margin: auto;
+        width: 20%;
+        background-color: #1D2C40;
+        padding: 10px;
+        text-align: center;
+        cursor: pointer;
+        margin-bottom: 30px;
+        margin-top: 150px;
+    }
+
+    div.fale-comigo-desktop > a {
+        text-decoration: none;
+        font-size: 1em;
+        color: white;
+    }
+
+    section.links-sociais-desktop {
+        display: block;
+        width: 12%;
+        margin: auto;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 5px;
+    }
+
+    div.instagram-id {
+        width: 30px;
+        height: 30px;
+    }
+
+    div.email-id {
+        width: 30px;
+        height: 30px;
+    }
+
 }

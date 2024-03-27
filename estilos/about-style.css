@@ -11,7 +11,10 @@
     box-sizing: border-box;
 }
 
-
+/* body. html {
+    width: 100vw;
+    height: 100vh;
+} */
 
 div.logo-principal {
     margin-bottom: 20px;
@@ -112,6 +115,10 @@ div.fale-comigo {
     margin-bottom: 50px;
 }
 
+div.fale-comigo-desktop {
+    display: none;
+}
+
 div.fale-comigo > a {
     text-decoration: none;
     font-size: 1.5em;
@@ -128,14 +135,18 @@ section.links-sociais {
     gap: 5px;
 }
 
-div#instagram-id {
+section.links-sociais-desktop {
+    display: none;
+}
+
+div.instagram-id {
     width: 40px;
     height: 40px;
     background-image: url(../imagens/icon-instagram.png);
     background-size: cover;
 }
 
-div#email-id {
+div.email-id {
     width: 40px;
     height: 40px;
     background-image: url(../imagens/icon-e-mail.png);
