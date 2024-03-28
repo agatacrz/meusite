@@ -11,10 +11,6 @@
     box-sizing: border-box;
 }
 
-body {
-    width: 100vw;
-}
-
 div.logo-principal {
     margin-bottom: 20px;
 }
