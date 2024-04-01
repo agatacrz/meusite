@@ -78,6 +78,7 @@ div.conteudo-item {
     background-color: white;
     padding: 10px 20px;
     border-radius: 50px;
+    margin-bottom: 13px;
 }
 
 div.conteudo-item:hover {
